@@ -91,7 +91,6 @@ class _ExpandedTileState extends State<ExpandedTile>
 
   @override
   void dispose() {
-    tileController.dispose();
     super.dispose();
   }
 
